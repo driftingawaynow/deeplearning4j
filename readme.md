@@ -12,8 +12,7 @@ From the deeplearning4j directory run the command:
 - [junit-jupiter (5.6.2)](https://junit.org/junit5/)    
 - [nd4j-native-platform (1.0.0-beta7)](https://deeplearning4j.konduit.ai/nd4j/overview)  
 - [deeplearning4j-core (1.0.0-beta7)](https://deeplearning4j.org/)  
-### Video Presentation
-https://drive.google.com/drive/folders/1mhRB1ef0Rz78TqurA2ni-SlVQ5ozo9YO?usp=sharing
+
 # Team
  - Brandon Burkett (Product Owner)  
 - Nick Caravias (Scrum Master)  
