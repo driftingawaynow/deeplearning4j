@@ -14,7 +14,7 @@ From the csci205finalproject directory run the command:
 - [deeplearning4j-core (1.0.0-beta7)](https://deeplearning4j.org/)  
 ### Video Presentation
 https://drive.google.com/drive/folders/1mhRB1ef0Rz78TqurA2ni-SlVQ5ozo9YO?usp=sharing
-# Team 3
+# Team
  - Brandon Burkett (Product Owner)  
 - Nick Caravias (Scrum Master)  
 - Kevin Doyle  
