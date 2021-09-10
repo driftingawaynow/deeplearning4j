@@ -3,7 +3,7 @@
 ### Description  
 A JavaFX program that uses deeplearning4j to train models and compare the differences in learning rate and accuracy that occur when the user adjusts things such as batch size, epochs, etc. The GUI allows the user to change these variables and then allows the user to visualize the differences between these different models by showing the difference in learning rate and accuracy for each run.  
 ### Running the Program
-From the csci205finalproject directory run the command:
+From the deeplearning4j directory run the command:
 
     gradle run
 
