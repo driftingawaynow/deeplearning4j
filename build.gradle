@@ -1,0 +1,32 @@
+// Gradle build file
+// CSCI 205 - Software Engineering and Design
+// Bucknell University
+// Author - B. King
+plugins{
+    id 'application'
+    id 'java'
+    id 'idea'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+group 'org.team03' // Replace abc with your initials
+version '0.1-SNAPSHOT'
+repositories {
+    mavenCentral()
+}
+test {
+    useJUnitPlatform()
+}
+// Needs to be either 11.0.2 or 14.0.2
+javafx {
+    version = "14.0.2"
+    modules = [ 'javafx.controls' ]
+}
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.6.2')
+    implementation "org.nd4j:nd4j-native-platform:1.0.0-beta7"
+    implementation "org.deeplearning4j:deeplearning4j-core:1.0.0-beta7"
+}
+application {
+    mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") :
+            "DL4JView.DL4JMain"
+}
